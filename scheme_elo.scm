@@ -1,4 +1,4 @@
-; Run using mit-scheme --load test.scm
+; Run using mit-scheme --load scheme_elo.scm
 (define (win-prob elo_1 elo_2)
   (let* ((diff (- elo_1 elo_2))
 	 (exponent (/ diff (- 400))))
